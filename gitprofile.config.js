@@ -2,67 +2,75 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'axelrom16', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'axelromero16',
+    twitter: 'axelrom2',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'romeroaxel16@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1izRGohw2jtLPG-8dvNd0A-EYTMenmdcu/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Python',
+    'Artificial Intelligence',
+    'Machine Learning',
+    'Deep Learning',
+    'Natural Language Processing',
+    'PyTorch',
+    'TensorFlow', 
+    'Generative AI',
+    'Data Science',
+    'Statistics',
+    'SQL',
+    'High Performance Computing',
+    'Medical Imaging',
+    'R',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'High Performance Artificial Intelligence (HPAI) - Barcelona Supercomputing Center (BSC)',
+      position: 'Research Assistant at KEMLG (HPAI - BSC - UPC)',
+      from: 'September 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.bsc.es/es/discover-bsc/organisation/scientific-structure/high-performance-artificial-intelligence',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Werfen OEM',
+      position: 'Systems Development Trainee',
+      from: 'November 2021',
+      to: 'July 2022',
+      companyLink: 'https://www.werfen.com/oem/',
     },
+    {
+      company: 'IRB Barcelona',
+      position: 'Bioinformatics/Biostatistics Trainee',
+      from: 'July 2021',
+      to: 'September 2021',
+      companyLink: 'https://www.irbbarcelona.org/en',
+    }
   ],
   /* certifications: [
     {
@@ -74,22 +82,22 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Universitat Poiltècnica de Catalunya (UPC)',
+      degree: 'Master"s Degree in Artificial Intelligence',
+      from: '2022',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universitat Autònoma de Barcelona (UAB)',
+      degree: 'Bachelor"s Degree in Applied Statistics',
+      from: '2018',
+      to: '2022',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+    /*{
       title: 'Project Name',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -102,7 +110,7 @@ const config = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
-    },
+    },*/
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
