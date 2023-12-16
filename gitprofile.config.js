@@ -3,7 +3,7 @@
 const config = {
   github: {
     username: 'axelrom16', // Your GitHub org/user name. (Required)
-    sortBy: 'updated', // stars | updated
+    sortBy: 'stars', // stars | updated
     limit: 6, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
@@ -15,7 +15,7 @@ const config = {
     twitter: 'axelrom2',
     mastodon: '',
     facebook: '',
-    instagram: '',
+    instagram: 'axelrom2',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
@@ -24,7 +24,7 @@ const config = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: '',
+    website: 'https://axelromero16.github.io/',
     phone: '',
     email: 'romeroaxel16@gmail.com',
   },
@@ -115,7 +115,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
