@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1izRGohw2jtLPG-8dvNd0A-EYTMenmdcu/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1SHFvG-xejdydMLCM7L8NqpOAuyvFyfvd/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
