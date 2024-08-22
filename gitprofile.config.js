@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1SHFvG-xejdydMLCM7L8NqpOAuyvFyfvd/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/18mLK57EfIm6ebIzHu5Jr_oiNl8T-TDCj/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -44,7 +44,7 @@ const config = {
     'Data Science',
     'Statistics',
     'SQL',
-    'High Performance Computing',
+    'High-Performance Computing',
     'Medical Imaging',
     'R',
     'Git',
@@ -72,14 +72,20 @@ const config = {
       companyLink: 'https://www.irbbarcelona.org/en',
     }
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Python Essentials for MLOps',
+      body: 'Duke University',
+      year: 'March 2024',
+      link: 'https://coursera.org/share/7a1da8adedd68faa58aa5a49dd91fac9'
     },
-  ], */
+    {
+      name: 'Cloud Computing Foundations',
+      body: 'Duke University',
+      year: 'August 2024',
+      link: 'https://coursera.org/share/8fc8e976dab7f8517c7a3d8bd639b313'
+    },
+  ], 
   education: [
     {
       institution: 'Universitat Poiltècnica de Catalunya (UPC)',
